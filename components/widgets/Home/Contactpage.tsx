@@ -27,7 +27,7 @@ export default function ContactPage() {
       </div>
 
       {/* RIGHT SIDE - FORM */}
-      <div className="md:w-1/2 w-full flex items-center justify-center bg-[#111] p-10">
+      <div className="md:w-1/2 w-full flex items-center justify-center bg-[#111] section">
         <form
           className="w-full max-w-lg space-y-6"
           onSubmit={(e) => e.preventDefault()}
