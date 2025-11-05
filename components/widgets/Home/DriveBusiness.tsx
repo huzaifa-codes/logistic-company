@@ -37,15 +37,15 @@ function DriveBusiness() {
   ];
 
   return (
- <section className='border-b-4 border-sky-600'>
-   <div className='container section  border-sky-600'>
+    <div className='border-b-4 border-sky-500'>
+ <div className='container section  border-sky-600'>
       <Heading>Drive Your Business with Armstrong</Heading>
         <p className="text-gray-600 text-center text-base md:text-lg mt-2 mb-10">
         Hundreds of loads moving daily throughout the Armstrong network.
       </p>
 
 
-      <div className="relative flex-center flex-wrap gap-6  to-transparent">
+      <div className="relative flex-center flex-wrap gap-6 py-10 to-transparent">
         {cards.map((card, i) => (
           <Card
             key={i}
@@ -64,22 +64,22 @@ function DriveBusiness() {
 
             <CardContent>
               <CardTitle className="text-xl font-bold mb-2">{card.title}</CardTitle>
-              <CardDescription className="text-gray-800 leading-relaxed text-base">
+              <CardDescription className="text-gray-800 leading-relaxed fs-lg">
                 {card.description}
               </CardDescription>
             </CardContent>
 
             <CardFooter className="justify-end">
               <Button className="absolute bottom-6 btn-black rounded-full w-10 h-10 flex items-center justify-center transition-all">
-                <ArrowRight size={18} />
+                <ArrowRight size={40} />
               </Button>
             </CardFooter>
           </Card>
         ))}
       </div>
     </div>
- </section>
-
+    </div>
+   
   );
 }
 
