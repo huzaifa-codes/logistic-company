@@ -27,13 +27,7 @@ function Hero() {
           Velonix Logistics extensive network of logistics professionals are here to handle{" "}
           every detail so you don’t have to.
         </p>
-
-        <Button
-          variant="sky"
-          size="lg"
-        >
-          Contact Us
-        </Button>
+        <Button variant="sky" size="lg">Contact Us</Button>
       </div>
     </div>
   );
