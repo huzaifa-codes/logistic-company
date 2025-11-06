@@ -190,7 +190,7 @@
   transition: all var(--transition-base);
 }
 
-  .container { @apply w-full max-w-7xl mx-auto px-6; }
+
 
   .btn-indigo { @apply bg-sky-500 text-white shadow-md hover:bg-indigo-700; }
   .btn-purple { @apply bg-purple-600 text-white shadow-md hover:bg-purple-700; }
@@ -199,11 +199,15 @@
   .btn-red { @apply bg-red-500 text-white shadow-md hover:bg-red-600; }
   .btn-yellow { @apply bg-yellow-400 text-white shadow-md hover:bg-yellow-500; }
   .btn-black { @apply bg-black text-white shadow-md hover:bg-sky-500; }
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-6; /* 5xl = 64rem = 1024px */
+}
+
 
   .section { @apply py-20 px-6; }
   .section-center { @apply py-12 px-4 flex flex-col items-center text-center; }
-  
-}
 
 ::-webkit-scrollbar {
   width: 20px; 

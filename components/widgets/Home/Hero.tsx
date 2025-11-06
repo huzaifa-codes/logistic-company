@@ -15,7 +15,7 @@ function Hero() {
       />
 
       {/* Content */}
-      <div className="absolute inset-0  container flex flex-col justify-center items-start ">
+      <div className="absolute  inset-0  container flex flex-col justify-center items-start mt-20 ">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-wide leading-snug md:leading-[65px] text-white font-extrabold ">
           Your <span className="text-sky">Shipment,</span> Our <br className="hidden sm:block" />{" "}
           <span>Experts.</span> <br className="hidden sm:block" />
