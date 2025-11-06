@@ -214,14 +214,14 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #3a89bd; /* yellow color */
+  background-color: #0ea5e9; /* yellow color */
   border-radius: 10px;
   border: 2px solid transparent;
 }
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: #3a89bd transparent; /* thumb color and track */
+  scrollbar-color: #0ea5e9 transparent; /* thumb color and track */
 }
 
 
