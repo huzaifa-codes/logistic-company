@@ -4,8 +4,7 @@ import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
 export default function Footer() {
   return (
     <footer className="bg-[#0b0b0b]  text-gray-300 py-12 border-t-4 border-sky-600">
-      <div className="container">
-        <div className="flex flex-col lg:flex-row justify-between gap-12">
+        <div className="flex flex-col lg:flex-row justify-between container gap-12">
 
           <div className="max-w-md">
             <h2 className="text-white font-semibold text-lg mb-2 ">
@@ -71,10 +70,6 @@ export default function Footer() {
             </div>
           </div>
         </div>
-
-        {/* Bottom Line */}
-      
-      </div>
         <div className="text-center mt-10 border-t border-gray-800 pt-5 text-xs text-gray-500">
           © {new Date().getFullYear()} Velonix Logistics. All rights reserved.
         </div>
