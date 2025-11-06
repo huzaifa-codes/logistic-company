@@ -3,15 +3,15 @@ import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0b0b0b] text-gray-300 py-12 border-t-4 border-sky-600">
-      <div className="container mx-auto px-6">
+    <footer className="bg-[#0b0b0b]  text-gray-300 py-12 border-t-4 border-sky-600">
+      <div className="container">
         <div className="flex flex-col lg:flex-row justify-between gap-12">
-          {/* LEFT SIDE - About Velonix Logistics */}
+
           <div className="max-w-md">
             <h2 className="text-white font-semibold text-lg mb-2 ">
               Velonix Logistics
             </h2>
-            <p className="text-gray-400 text-sm leading-relaxed mb-6 ">
+            <p className="text-gray-400 text-base leading-relaxed mb-6 ">
               Velonix Logistics is a premium transport and freight management
               company focused on reliability, innovation, and customer
               satisfaction. We deliver smart logistics solutions designed to

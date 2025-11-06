@@ -205,7 +205,24 @@
   
 }
 
+::-webkit-scrollbar {
+  width: 20px; 
+}
 
+::-webkit-scrollbar-track {
+  background: transparent; /* track (background area) */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3a89bd; /* yellow color */
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #3a89bd transparent; /* thumb color and track */
+}
 
 
 

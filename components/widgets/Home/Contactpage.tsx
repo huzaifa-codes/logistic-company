@@ -16,7 +16,8 @@ export default function ContactPage() {
         }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
-        <div className="relative z-10 max-w-md">
+       <div className="max-w-[530px]">
+         <div className="relative z-10  ">
           <h1 className="text-4xl md:text-5xl leading-[1.2] font-bold mb-4">
             Connect with <span className="text-sky-500">Velonix Logistics</span>
           </h1>
@@ -24,12 +25,12 @@ export default function ContactPage() {
             Tell us a little about yourself and we’ll be in touch.
           </p>
         </div>
+       </div>
       </div>
 
-      {/* RIGHT SIDE - FORM */}
       <div className="md:w-1/2 w-full flex items-center justify-center bg-[#111] section">
         <form
-          className="w-full max-w-lg space-y-6"
+          className="w-full max-w-[800px] space-y-6"
           onSubmit={(e) => e.preventDefault()}
         >
           {/* Name Fields */}
@@ -41,7 +42,7 @@ export default function ContactPage() {
               <Input
                 type="text"
                 placeholder="Enter your first name"
-                className="border-gray-700 focus-visible:border-sky-600 focus-visible:ring-sky-600/50 focus-visible:ring-[3px]"
+                className="border-gray-700 px-10 focus-visible:border-sky-600 focus-visible:ring-sky-600/50 focus-visible:ring-[3px]"
               />
             </div>
             <div>
@@ -56,7 +57,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          {/* Contact Fields */}
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label className="text-sm font-semibold block mb-1">EMAIL</label>
